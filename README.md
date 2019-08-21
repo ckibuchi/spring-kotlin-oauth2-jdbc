@@ -11,8 +11,8 @@ docker run --name milky-way -p 5432:5432 -e POSTGRES_DB=milky-way -e POSTGRES_PA
 
 To run the project using Spring Boot:
 ~~~
-./gradew bootRun # On Unix
-.\gradew.bat bootRun # On Windows
+./gradlew bootRun # On Unix
+.\gradlew.bat bootRun # On Windows
 ~~~
 
 Spring Boot will run on port `8080`. In order to request a new token:
